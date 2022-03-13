@@ -2,7 +2,7 @@ const countEl = document.getElementById('vc');
 
 updateVisitCount();
 function updateVisitCount() {
-    fetch('https://1nydmobav4.execute-api.us-east-1.amazonaws.com/Prod/visitor_count')
+    fetch('')
         .then(response => {
         return response.json()
       })
